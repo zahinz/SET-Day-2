@@ -33,6 +33,9 @@
 * attribute for input : placeholder, type - [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 * Emmet shortcuts [here](https://code.visualstudio.com/docs/editor/emmet#_how-to-expand-emmet-abbreviations-and-snippets)
 * box shadown CSS property - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+* images inserted not follow the border radius => use CSS overflow: hidden
+* CSS shorthand - box-shadow, border,
+* image lazy in html, attribute in element `img` => `loading="lazy"` -  [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading)
 
 
 ---

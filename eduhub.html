@@ -10,6 +10,7 @@
         * {
             margin: 0;
             padding: 0;
+            font-family: sans-serif;
         }
         div#container {
             width: 900px;
@@ -104,6 +105,11 @@
             box-sizing: border-box;
             border-radius: 10px;
             box-shadow: 0 0 10px lightgrey;
+            overflow: hidden;
+        }
+        div.package-box img {
+            width: 100%;
+            height: 100%;
         }
         div#testimony {
             width: 900px;
@@ -118,17 +124,35 @@
         }
         div.testimony-holder {
             width: 900px;
-            height: 300px;
+            height: 350px;
             background-color: #034078;
         }
         div.testimony-list {
-            width: 250px;
-            height: 250px;
+            width: 200px;
+            height: 200px;
             background-color: white;
             display: inline-block;
             margin : 10px;
             box-sizing: border-box;
             border-radius: 100%;
+            overflow: hidden;
+        }
+        div.testimony-list img {
+            width: 100%;
+            height: 100%;
+        }
+        div.submit-button {
+            background-color: orange;
+            color: white;
+            height: 50px;
+            width: 200px;
+            margin: 20px auto 0 auto;
+            padding: 12px;
+            box-sizing: border-box;
+            border-radius: 100px;
+        }
+        div.submit-button h2 {
+            font-size: 1.2rem;
         }
     </style>
 
@@ -172,9 +196,15 @@
                 <h2>Our academics package</h2>
             </div>
             <div class="package-holder">
-                <div class="package-box"></div>
-                <div class="package-box"></div>
-                <div class="package-box"></div>
+                <div class="package-box">
+                    <img src="assets/image 1.jpg" alt="package image 1" loading="lazy">
+                </div>
+                <div class="package-box">
+                    <img src="assets/image 2.jpg" alt="package image 2" loading="lazy">
+                </div>
+                <div class="package-box">
+                    <img src="assets/image 3.jpg" alt="package image 3" loading="lazy">
+                </div>
             </div>
         </div>
 
@@ -183,10 +213,20 @@
                 <h2>What our students say</h2>
             </div>
             <div class="testimony-holder">
-                <div class="testimony-list"></div>
-                <div class="testimony-list"></div>
-                <div class="testimony-list"></div>
+                <div class="testimony-list">
+                    <img src="assets/User 1.jpeg" alt="">
+                </div>
+                <div class="testimony-list">
+                    <img src="assets/User 2.jpeg" alt="">
+                </div>
+                <div class="testimony-list">
+                    <img src="assets/User 3.jpeg" alt="">
+                </div>
+                <div class="submit-button">
+                    <h2>Apply now!</h2>
+                </div>
             </div>
+           
             
         </div>
 
