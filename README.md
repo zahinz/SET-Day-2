@@ -24,6 +24,17 @@
 * display: table
 * display: flex
 
+### Create basic HTML website - EDUHUB
+* navbar (nav)
+* control element inside the nav - (nav h1, nav ul, nav ul li) space between nav and the element is important and take note on li element
+* box-sizing: border-box (to resize element changes due to padding increment)
+* padding and box-sizing usually used together
+* add section, input, button, form
+* attribute for input : placeholder, type - [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+* Emmet shortcuts [here](https://code.visualstudio.com/docs/editor/emmet#_how-to-expand-emmet-abbreviations-and-snippets)
+* box shadown CSS property - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+
 ---
 
 ## Problem encountered 🧐
