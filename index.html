@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 Task</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        div#container {
+            width: 1200px;
+            height: auto;
+            background-color: #f7f7f7;
+            margin: auto;
+        }
+        nav {
+            height: 55px;
+            background-color: #6D41BF;
+            padding: 10px 0 0 20px;
+            box-sizing: border-box;
+        }
+        nav h1, nav ul, nav li {
+            display: inline-block;
+            color: white;
+        }
+        nav ul {
+            margin: 0 0 0 250px;
+        }
+        nav  ul li {
+            margin: 0 15px 0 0;
+            font-size: 0.9rem;
+        }
+        nav ul li.button-contact {
+            border: 1.5px solid white;
+            padding: 5px 20px;
+            margin-left: 350px;
+            border-radius: 30px;
+        }
+        div#hero {
+            width: 1200px;
+            height: 700px;
+            background: linear-gradient(90deg, rgba(130,75,195,1) 0%, rgba(193,106,213,1) 100%);
+        }
+        div.column-left {
+            width: 500px;
+            /* background-color: red; */
+            display: inline-block;
+            margin: 200px 0 0 100px;
+            vertical-align: top;
+        }
+        div.column-left h1 {
+            color: white;
+            font-size: 3.5rem;
+        }
+        div.column-left h2 {
+            color: white;
+            font-size: 1.2rem;
+            padding-top: 20px;
+        }
+        div.hero-button {
+            background-color: orange;
+            color: white;
+            width: 100px;
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px 40px;
+            font-size: 0.8rem;
+            border-radius: 100px;
+        }
+        div.column-right {
+            width: 595px;
+            height: 700px;
+            /* background-color: blue; */
+            display: inline-block;
+        }
+        div.column-right img {
+            width: 100%;
+            margin: 150px 0 0 0px;
+        }
+        div#gallery {
+            background-color: #FDF1FF;
+            width: 1200px;
+            height: 650px;
+        }
+        div.gallery-header {
+            padding: 80px 100px;
+        }
+        div.gallery-header p {
+            width: 55%;
+            display: inline-block;
+            padding-left: 100px;
+            box-sizing: border-box;
+            line-height: 1.5;
+        }
+        div.gallery-header-title {
+            width: 40%;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 20px;
+        }
+        div.gallery-header-title h3 {
+            font-size: 0.8rem;
+            padding-bottom: 5px;
+        }
+        div.gallery-header-title h1 {
+            font-size: 1.8rem;
+        }
+        div.gallery-list {
+            padding: 0px 100px 0;
+        }
+        div.gallery-list ul li {
+            display: inline-block;
+            padding-right: 20px;
+        }
+        div.gallery-grid {
+            padding: 10px 0;
+            text-align: center;
+        }
+        div.gallery-content {
+            width: 320px;
+            height: 230px;
+            background-color: red;
+            display: inline-block;
+            text-align: left;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        div.gallery-content h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+        div.gallery-content h3 {
+            position: absolute;
+            bottom: 60px;
+            left: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <h1>Relap</h1>
+            <ul>
+                <li>Home</li>
+                <li>Features</li>
+                <li>Work</li>
+                <li>About</li>
+                <li>People</li>
+                <li>News</li>
+                <li class="button-contact">Contact Us</li>
+            </ul>
+        </nav>
+
+        <div id="hero">
+            <div class="column-left">
+                <h1>No need to hire accountant.</h1>
+                <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h2>
+                <div class="hero-button">
+                    <h3>Explore</h3>
+                </div>
+            </div>
+            <div class="column-right">
+                <img src="assets/task_banner_bg.png" alt="">
+            </div>
+        </div>
+
+        <div id="gallery">
+            <div class="gallery-header">
+                <div class="gallery-header-title">
+                    <h3>Nemo enim sit aspernatur aut odit aut fugit.</h3>
+                    <h1>sed quia consequuntur</h1>
+                </div>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+            </div>
+            <div class="gallery-list">
+                <ul>
+                    <li>Neque</li>
+                    <li>Porro</li>
+                    <li>Numquam</li>
+                    <li>Nostrum</li>
+                    <li>Ullam</li>
+                </ul>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-content">
+                    <h3>Subheading</h3>
+                    <h2>Title</h2>
+                    <img src="assets/task_gallery_1.png" alt="">
+                </div>
+                <div class="gallery-content">
+                    <h3>Subheading</h3>
+                    <h2>Title</h2>
+                    <img src="assets/task_gallery_2.png" alt="">
+                </div>
+                <div class="gallery-content">
+                    <h3>Subheading</h3>
+                    <h2>Title</h2>
+                    <img src="assets/task_gallery_3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

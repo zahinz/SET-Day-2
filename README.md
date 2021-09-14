@@ -1,4 +1,5 @@
 ## CODING BOOTCAMP - DAY 2
+[Click here to view the assessmet](#)
 [Use this cheatsheet for markdown](https://www.markdownguide.org/cheat-sheet/)
 
 ---
@@ -12,7 +13,7 @@
 
 ---
 
-## Lesson learned 💡
+## What I learned today 💡
 ### CSS
 * (*) star element to select all element
 * margin 0 and padding 0 to reset the default browser styling
