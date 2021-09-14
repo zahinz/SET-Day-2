@@ -1,5 +1,6 @@
 ## CODING BOOTCAMP - DAY 2
 [Click here to view the assessmet](#)
+
 [Use this cheatsheet for markdown](https://www.markdownguide.org/cheat-sheet/)
 
 ---
