@@ -1,7 +1,7 @@
 ## CODING BOOTCAMP - DAY 2
-[Click here to view the assessmet](#)
+[Click here to view the assessmet](https://zahinz.github.io/SET-Day-2/)
 
-[Use this cheatsheet for markdown](https://www.markdownguide.org/cheat-sheet/)
+[Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ---
 

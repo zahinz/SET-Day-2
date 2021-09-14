@@ -43,7 +43,7 @@
         }
         div#hero {
             width: 1200px;
-            height: 700px;
+            height: 650px;
             background: linear-gradient(90deg, rgba(130,75,195,1) 0%, rgba(193,106,213,1) 100%);
         }
         div.column-left {
@@ -61,6 +61,7 @@
             color: white;
             font-size: 1.2rem;
             padding-top: 20px;
+            line-height: 1.5;
         }
         div.hero-button {
             background-color: orange;
@@ -141,6 +142,111 @@
             bottom: 60px;
             left: 20px;
         }
+        div#middle-section {
+            background-color: #3023AE;
+            width: 1200px;
+            height: 550px;
+            overflow: hidden;
+        }
+        div.middle-left {
+            /* background-color: red; */
+            background-image: url(assets/task_about_bg.png);
+            background-size: cover;
+            display: inline-block;
+        }
+        div.middle-left img {
+            margin: 50px 0 50px 80px;
+        }
+        div.middle-right {
+            /* background-color: orange; */
+            width: 40%;
+            display: inline-block;
+            padding: 50px;
+            box-sizing: border-box;
+            vertical-align: top;
+            margin: 150px 0 0 0;
+        }
+        div.middle-right h3 {
+            color: white;
+            padding-bottom: 10px;
+        }
+        div.middle-right h2 {
+            color: white;
+            padding-bottom: 10px;
+        }
+        div.middle-right p {
+            color: white;
+            line-height: 1.5;
+        }
+        div#features {
+            background-color: #DFD9D9;
+            height: 600px;
+        }
+        div.features-header {
+            text-align: center;
+            padding: 40px;
+        }
+        div.features-header h2 {
+            padding-bottom: 10px;
+            font-size: 2rem;
+        }
+        div.features-grid-top {
+            text-align: center;
+        }
+        div.features-grid-bottom {
+            text-align: center;
+        }
+        div.features-list {
+            height: 200px;
+            width: 320px;
+            background-color: white;
+            display: inline-block;
+            margin: 5px;
+        }
+        div.features-list img {
+            margin-top: 45px;
+        }
+        div.features-list h2 {
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+        div.features-list h3 {
+            font-size: 0.9rem;
+            font-weight: 200;
+        }
+        div#testimonial {
+            background-color: white;
+            height: 600px;
+        }
+        div.testimonial-header {
+            text-align: center;
+            padding: 50px;
+        }
+        div.testimonial-header h2 {
+            font-size: 2rem;
+            padding-bottom: 10px;
+        }
+        div.testimonial-grid {
+            text-align: center;
+        }
+        div.testimonial-list {
+            background-color: white;
+            height: 250px;
+            width: 350px;
+            box-shadow: 0 0 10px lightgray;
+            display: inline-block;
+            padding: 30px;
+            box-sizing: border-box;
+            margin: 10px;
+            text-align: left;
+        }
+        div.testimonial-list img {
+            margin-bottom: 20px;
+        }
+        div.testimonial-list p {
+            margin-bottom: 20px;
+        }
+
     </style>
 
 </head>
@@ -208,6 +314,81 @@
             </div>
         </div>
 
+        <div id="middle-section">
+            <div class="middle-left">
+                <img src="assets/task_about_img.png" alt="">
+            </div>
+            <div class="middle-right">
+                <h3>Nemo enim ipsam voluptatem quia.</h3>
+                <h2>Sed ut perspiciatis</h2>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </div>
+        </div>
+
+        <div id="features">
+            <div class="features-header">
+                <h2>Features</h2>
+                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis.</p>
+            </div>
+            <div class="features-grid-top">
+                <div class="features-list">
+                    <img src="assets/task_icon_1.png" alt="">
+                    <h2>Feature 1</h2>
+                    <h3>This is sample text</h3>
+                </div>
+                <div class="features-list">
+                    <img src="assets/task_icon_2.png" alt="">
+                    <h2>Feature 1</h2>
+                    <h3>This is sample text</h3>
+                </div>
+                <div class="features-list">
+                    <img src="assets/task_icon_3.png" alt="">
+                    <h2>Feature 1</h2>
+                    <h3>This is sample text</h3>
+                </div>
+            </div>
+            <div class="features-grid-bottom">
+                <div class="features-list">
+                    <img src="assets/task_icon_4.png" alt="">
+                    <h2>Feature 1</h2>
+                    <h3>This is sample text</h3>
+                </div>
+                <div class="features-list">
+                    <img src="assets/task_icon_5.png" alt="">
+                    <h2>Feature 1</h2>
+                    <h3>This is sample text</h3>
+                </div>
+                <div class="features-list">
+                    <img src="assets/task_icon_6.png" alt="">
+                    <h2>Feature 1</h2>
+                    <h3>This is sample text</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="testimonial">
+            <div class="testimonial-header">
+                <h2>Features</h2>
+                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-list">
+                    <img src="assets/task_profile_1.png" alt="">
+                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui.</p>
+                    <h3>Jone Doe</h3>
+                </div>
+                <div class="testimonial-list">
+                    <img src="assets/task_profile_2.png" alt="">
+                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui.</p>
+                    <h3>Jone Doe</h3>
+                </div>
+                <div class="testimonial-list">
+                    <img src="assets/task_profile_3.png" alt="">
+                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui.</p>
+                    <h3>Jone Doe</h3>
+                </div>
+            </div>
+        </div>
 
     </div>
 </body>
